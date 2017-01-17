@@ -46,6 +46,27 @@ ADD config/apache/apache-virtual-hosts.conf /etc/apache2/sites-enabled/000-defau
 ADD config/apache/apache2.conf /etc/apache2/apache2.conf
 ```
 
+## Packages included
+
+ * php7.0
+ * php7.0-cli
+ * apache2
+ * php7.0-gd
+ * php7.0-json
+ * php7.0-mbstring
+ * php7.0-xml
+ * php7.0-xsl
+ * php7.0-zip
+ * php7.0-soap
+ * php7.0-pear
+ * php7.0-mcrypt
+ * php7.0-curl
+ * curl
+ * libapacha2-mod-php
+ * apt-transport-https
+ * nano
+ * lynx-cur
+ * composer
 
 ## Exposed ports
 
