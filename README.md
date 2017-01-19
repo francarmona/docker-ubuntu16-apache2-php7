@@ -17,13 +17,6 @@ docker build -t francarmona/docker-ubuntu16-apache2-php7 .
 
 ## Run
 
-
-docker run -p 89:80 --name apache-php7 docker-ubuntu16-apache2-php7
-
-docker run -p 89:80 -v /home/fran/html:/var/www --name apache-php7 docker-ubuntu16-apache2-php7
-
-
-
 After building the image, run the container.
 ```
 docker run --name apache2-php7 -v ~/path/to/code:/var/www -d -p [host-port]:80 francarmona/docker-ubuntu16-apache2-php7
