@@ -10,6 +10,7 @@ RUN apt-get -y upgrade
 # Packages installation
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y --fix-missing install apache2 \
       php \
+      php-dev \
       php-cli \
       php-gd \
       php-json \
