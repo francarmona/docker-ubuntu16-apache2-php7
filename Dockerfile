@@ -56,6 +56,9 @@ RUN chown -R www-data:www-data /var/www
 
 WORKDIR /var/www/
 
+# Volume
+VOLUME /var/www
+
 # Ports: apache2
 EXPOSE 80
 
